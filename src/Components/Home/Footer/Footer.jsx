@@ -8,7 +8,9 @@ export const Footer = () => {
         <div className="row justify-content-center cursor-pointer">
           <div className="col-12 col-lg-1 fw-bold mt-2">Contact</div>
           <div className="col-12 col-lg-2 fw-bold mt-2">Terms & Conditions</div>
-          <div className="col-12 col-lg-1 fw-bold mt-2">Privacy Policy</div>
+          <div className="col-12 col-lg-1 fw-bold mt-2 text-nowrap">
+            Privacy Policy
+          </div>
         </div>
         <div className="d-flex justify-content-center mt-4">
           <svg

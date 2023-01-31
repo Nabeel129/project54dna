@@ -1,4 +1,6 @@
 .create-account-wrapper {
+  min-height: 70vh;
+
   .sign-up-bg {
     background-image: url("../../Assets/Images/signup-bg.png");
     height: 66vh;
@@ -19,9 +21,13 @@
     line-height: 17px;
     color: #575757;
   }
+
+  .signup {
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
 }
 
-.signup {
-  padding-bottom: 15px;
-  margin-bottom: 25px;
+.container {
+  min-height: 10vh;
 }

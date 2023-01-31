@@ -155,6 +155,7 @@ export const SignUpPage = () => {
           </div>
         </div>
       </div>
+      <div className="container"></div>
       <Footer />
     </>
   );
