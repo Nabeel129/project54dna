@@ -60,10 +60,11 @@ export const Navbar = ({ setShowLoginModal, showLoginModal }) => {
             </ul>
             <div className="d-block d-lg-flex align-items-center">
               <svg
-                className="d-none d-lg-block"
-                width="18"
-                height="19"
-                viewBox="0 0 18 19"
+                className="d-none d-lg-block login-btn"
+                onClick={() => navigate("/search")}
+                width="20"
+                height="22"
+                viewBox="0 0 20 22"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -73,10 +74,10 @@ export const Navbar = ({ setShowLoginModal, showLoginModal }) => {
                 />
               </svg>
               <svg
-                className="mx-3 d-none d-lg-block"
+                className="mx-3 d-none d-lg-block login-btn"
                 width="20"
-                height="21"
-                viewBox="0 0 20 21"
+                height="22"
+                viewBox="0 0 20 22"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >

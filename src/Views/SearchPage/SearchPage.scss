@@ -1,0 +1,55 @@
+.search {
+    .search-title {
+        /* 검색 결과 */
+        position: absolute;
+        width: 119px;
+        height: 38px;
+        left: 135px;
+        top: 208px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 38px;
+
+        /* main text */
+
+        color: #272727;
+    }
+
+    .search-line {
+        /* Line 2 */
+        position: absolute;
+        width: 1170px;
+        height: 0px;
+        left: 135px;
+        top: 276px;
+        /* form_1 */
+        border: 1px solid #CCCCCC;
+    }
+
+    .noResult {
+        /* No search results. Please search again. */
+
+
+        position: absolute;
+        width: 311px;
+        height: 30px;
+        left: 135px;
+        top: 422px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: -0.03em;
+
+        /* subtext_2 */
+
+        color: #999999;
+    }
+}

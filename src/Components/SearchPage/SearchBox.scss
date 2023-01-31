@@ -1,0 +1,31 @@
+.search-box {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 660px 16px 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 766px;
+    height: 56px;
+    left: 135px;
+    top: 306px;
+
+    /* white */
+
+    background: #FFFFFF;
+    /* line_1 */
+
+    border: 1px solid #EBEBEB;
+    border-radius: 100px;
+}
+
+input[type=search] {
+    font-size: 16px;
+    background-image: url(../../Assets/Images/search-icon.png);
+    background-position: 15px 20px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}

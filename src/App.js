@@ -7,6 +7,7 @@ import { ReactNotifications } from 'react-notifications-component';
 import { Amplify } from 'aws-amplify';
 import awsconfig from './aws-exports';
 import { WelcomePage } from './Views/WelcomePage/WelcomePage';
+import SearchPage from './Views/SearchPage/SearchPage';
 
 Amplify.configure(awsconfig);
 
@@ -18,6 +19,7 @@ function App() {
         <Route exact path={'/'} element={<HomePage />} />
         <Route exact path={'/signup'} element={<SignUpPage />} />
         <Route exact path={'/welcome'} element={<WelcomePage />} />
+        <Route exact path={'/search'} element={<SearchPage />} />
       </Routes>
     </div>
   );
