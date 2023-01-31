@@ -1,0 +1,44 @@
+.reviews-wrapper {
+  background-color: #f6f9fe;
+
+  .reviews-section {
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .reviews-section {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  .reviews-section::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+  }
+
+  .reviews-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #272727;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .reviews-img {
+    min-width: 100vw;
+  }
+
+  @media screen and (max-width: 600px) {
+    .reviews-text {
+      font-size: 25px;
+    }
+  }
+}

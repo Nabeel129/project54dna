@@ -1,0 +1,38 @@
+.login-modal-wrapper {
+  .modal-content {
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 10px 15px rgba(71, 71, 71, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  .modal-header {
+    border: none;
+  }
+
+  .input-icons svg {
+    position: absolute;
+  }
+
+  .input-icons {
+    width: 100%;
+  }
+
+  .icon {
+    margin: 5px;
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 10px 50px;
+    text-align: left;
+  }
+
+  .login-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+  }
+}

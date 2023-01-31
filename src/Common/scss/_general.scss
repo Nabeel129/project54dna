@@ -1,0 +1,10 @@
+/* === General css which can be applied to all elements ===*/
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.modal-close-btn:hover {
+  box-shadow: 1px 1px 10px lightgray;
+  border-radius: 25px;
+}

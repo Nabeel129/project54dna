@@ -1,0 +1,40 @@
+.introduction-wrapper {
+  .introduction-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #272727;
+  }
+
+  .introduction-sub-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #272727;
+  }
+
+  .content {
+    padding: 100px 40px;
+    background-color: #f5f9fe;
+  }
+
+  .introduction-img {
+    min-width: 100vw;
+  }
+
+  @media screen and (max-width: 600px) {
+    .content {
+      padding: 70px 40px;
+    }
+
+    .introduction-heading {
+      font-size: 25px;
+    }
+  }
+}

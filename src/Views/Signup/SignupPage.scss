@@ -1,0 +1,27 @@
+.create-account-wrapper {
+  .sign-up-bg {
+    background-image: url("../../Assets/Images/signup-bg.png");
+    height: 66vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+  }
+
+  .required-field {
+    color: red;
+  }
+
+  .instruction-text {
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    color: #575757;
+  }
+}
+
+.signup {
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
