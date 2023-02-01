@@ -1,0 +1,18 @@
+.question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #DCEAFF;
+}
+
+.question:last-child {
+    border-bottom: none;
+}
+
+.left {
+    justify-content: center;
+    align-items: center;
+}

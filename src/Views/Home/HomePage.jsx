@@ -24,11 +24,11 @@ export const HomePage = () => {
       <Counts />
       <Report />
       <Reviews />
-      <Footer />
       <LoginModal
         showModal={showLoginModal}
         handleShowModal={setShowLoginModal}
       />
+      <Footer />
     </div>
   );
 };

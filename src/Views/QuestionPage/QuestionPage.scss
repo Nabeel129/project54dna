@@ -1,0 +1,43 @@
+.hero_section {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../Assets/Images/QNA_bkgr.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 749px;
+
+    padding-top: 25px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+.title {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.next {
+    margin-top: 50px
+}

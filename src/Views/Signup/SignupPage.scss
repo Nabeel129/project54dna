@@ -1,5 +1,5 @@
 .create-account-wrapper {
-  min-height: 70vh;
+  min-height: 60vh;
 
   .sign-up-bg {
     background-image: url("../../Assets/Images/signup-bg.png");
@@ -26,8 +26,8 @@
     padding-bottom: 15px;
     margin-bottom: 25px;
   }
-}
 
-.container {
-  min-height: 10vh;
+  .totalForm {
+    min-height: 56vh;
+  }
 }

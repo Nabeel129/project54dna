@@ -8,6 +8,7 @@ import { Amplify } from 'aws-amplify';
 import awsconfig from './aws-exports';
 import { WelcomePage } from './Views/WelcomePage/WelcomePage';
 import SearchPage from './Views/SearchPage/SearchPage';
+import QuestionPage from './Views/QuestionPage/QuestionPage';
 
 Amplify.configure(awsconfig);
 
@@ -20,6 +21,7 @@ function App() {
         <Route exact path={'/signup'} element={<SignUpPage />} />
         <Route exact path={'/welcome'} element={<WelcomePage />} />
         <Route exact path={'/search'} element={<SearchPage />} />
+        <Route exact path={'/questions'} element={<QuestionPage />} />
       </Routes>
     </div>
   );
